@@ -1,0 +1,18 @@
+﻿@model IEnumerable<JFSEPABlogPost.BusinessLayer.ViewModel.CommentPostViewModel>
+@{
+    ViewData["Title"] = "PostBlogComments";
+}
+
+<h1>PostBlogComments</h1>
+
+@foreach (var vm in Model)
+{
+    <h1>Post Title </h1>
+        @vm.BlogPost.Title
+        <ul>
+            @foreach (var ele in vm.Comments)
+            {
+                <li>@ele.CommentMsg</li>
+            }
+        </ul>
+    }

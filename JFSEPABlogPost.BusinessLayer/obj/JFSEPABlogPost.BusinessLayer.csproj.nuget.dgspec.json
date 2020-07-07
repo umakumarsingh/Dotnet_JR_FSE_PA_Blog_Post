@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj": {}
+  },
+  "projects": {
+    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj",
+        "projectName": "JFSEPABlogPost.BusinessLayer",
+        "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj"
+              },
+              "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
+        "projectName": "JFSEPABlogPost.DataLayers",
+        "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
+        "projectName": "JFSEPABlogPost.Entities",
+        "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
+        "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
+        "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

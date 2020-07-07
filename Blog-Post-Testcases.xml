@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CreateTest_Post_AddsBlogPostToRepository_AndRedirectsToIndex</name>
+      <weight>7</weight>
+      <mandatory>True</mandatory>
+      <desc>After Create method is executed action result must be redirected on Index Page</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>IndexTest_ReturnsViewWithBlogPostList</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>count list of post and match with suppay list of post count must be 2</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CommentTest_ReturnsDetailsView_WhenCommentExists</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>List of comment is available return on details view</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CommentTest_ReturnsViewWithCommentList</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>count list of comments and match with suppay list of comments count must be 2</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CommentTest_Post_AddsCommentsToRepository_AndRedirectsToIndex</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>Add comments</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Exception</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CommentTest_ReturnsNotFound_WhenCommentDoesNotExist</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>supplay postId and return comment if not exists retun not fount</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Exception</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>CreateTest_Post_ReturnsCreateView_WhenModelStateIsInvalid</name>
+      <weight>6</weight>
+      <mandatory>True</mandatory>
+      <desc>controller post methos model is invilid return action on create post page</desc>
+   </cases>
+</test-cases>

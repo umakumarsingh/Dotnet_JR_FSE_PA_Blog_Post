@@ -1,0 +1,17 @@
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.deps.json
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.AssemblyInfoInputs.cache
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.AssemblyInfo.cs
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.csprojAssemblyReference.cache
+D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.csproj.CoreCompileInputs.cache
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.deps.json
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.AssemblyInfoInputs.cache
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.AssemblyInfo.cs
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.csproj.CoreCompileInputs.cache
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.Entities\obj\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
