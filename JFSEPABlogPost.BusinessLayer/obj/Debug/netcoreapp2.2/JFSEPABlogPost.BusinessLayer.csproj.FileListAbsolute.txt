@@ -15,20 +15,37 @@ D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\n
 D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
 D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CoreCompileInputs.cache
 D:\IIHT\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.genruntimeconfig.cache
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.deps.json
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.json
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.dev.json
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.dll
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.pdb
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csprojAssemblyReference.cache
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfoInputs.cache
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfo.cs
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CoreCompileInputs.cache
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CopyComplete
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
-D:\IIHT\Code_Clean_Up\BlogPost-master-clean-code\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.genruntimeconfig.cache
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.deps.json
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.json
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.dev.json
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.dll
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.pdb
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csprojAssemblyReference.cache
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfoInputs.cache
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfo.cs
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CopyComplete
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
+D:\IIHT\Case Study\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.genruntimeconfig.cache
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.deps.json
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.json
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.runtimeconfig.dev.json
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.dll
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.dll
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.DataLayers.pdb
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\bin\Debug\netcoreapp2.2\JFSEPABlogPost.Entities.pdb
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csprojAssemblyReference.cache
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfoInputs.cache
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.AssemblyInfo.cs
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.csproj.CopyComplete
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.dll
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.pdb
+D:\IIHT\Code_Clean\JFSEPABlogPostwithInMemory\Blog\JFSEPABlogPost.BusinessLayer\obj\Debug\netcoreapp2.2\JFSEPABlogPost.BusinessLayer.genruntimeconfig.cache

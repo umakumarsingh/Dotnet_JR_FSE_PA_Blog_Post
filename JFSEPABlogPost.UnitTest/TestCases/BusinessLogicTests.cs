@@ -1,4 +1,7 @@
-﻿using JFSEPABlogPost.Controllers;
+﻿using JFSEPABlogPost.BusinessLayer.Interfaces;
+using JFSEPABlogPost.BusinessLayer.Services;
+using JFSEPABlogPost.Controllers;
+using JFSEPABlogPost.Models;
 using JFSEPABlogPost.Models.Interfaces;
 using Moq;
 using System;
@@ -12,19 +15,37 @@ namespace JFSEPABlogPost.UnitTest.TestCases
 {
     public class BusinessLogicTests
     {
-        private Mock<IBlogPostRepository> blogPostRepoMock;
-        private readonly BlogController blogController;
+        ///// <summary>
+        ///// Creating Referance of all Service Interfaces and Mocking All Repository
+        ///// </summary>
+        private readonly IBlogPostServies _blogPostServMock;
+        public readonly Mock<IBlogPostRepository> service = new Mock<IBlogPostRepository>();
+        private BlogPost _post;
+        private Comments _commnet;
         public BusinessLogicTests()
         {
-            blogPostRepoMock = new Mock<IBlogPostRepository>();
-            blogController = new BlogController(blogPostRepoMock.Object);
+            _blogPostServMock = new BlogPostServies(service.Object);
+            _post = new BlogPost()
+            {
+                PostID = 10,
+                Title = "Blog-Post-1",
+                Description = "Blog-Post-1-Description",
+                PostedDate = DateTime.Now
+            };
+            _commnet = new Comments()
+            {
+                CommId = 10,
+                CommentMsg = "Blog-Post-1-Commnet",
+                CommentedDate = DateTime.Now,
+                PostID = 1
+            };
         }
         static BusinessLogicTests()
         {
-            if (!File.Exists("../../../../output_BusinessLogic_revised.txt"))
+            if (!File.Exists("../../../../output_business_revised.txt"))
                 try
                 {
-                    File.Create("../../../../output_BusinessLogic_revised.txt").Dispose();
+                    File.Create("../../../../output_business_revised.txt").Dispose();
                 }
                 catch (Exception)
                 {
@@ -32,8 +53,8 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 }
             else
             {
-                File.Delete("../../../../output_BusinessLogic_revised.txt");
-                File.Create("../../../../output_BusinessLogic_revised.txt").Dispose();
+                File.Delete("../../../../output_business_revised.txt");
+                File.Create("../../../../output_business_revised.txt").Dispose();
             }
         }
         

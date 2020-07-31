@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {}
+    "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {}
   },
   "projects": {
-    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
+    "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
+        "projectUniqueName": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
         "projectName": "JFSEPABlogPost.DataLayers",
-        "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
+        "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\obj\\",
+        "outputPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
+              "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+                "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+    "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
+        "projectUniqueName": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
         "projectName": "JFSEPABlogPost.Entities",
-        "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
+        "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\obj\\",
+        "outputPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

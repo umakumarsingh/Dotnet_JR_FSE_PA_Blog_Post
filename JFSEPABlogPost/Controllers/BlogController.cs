@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JFSEPABlogPost.BusinessLayer.Interfaces;
 using JFSEPABlogPost.Models;
 using JFSEPABlogPost.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -10,32 +11,34 @@ namespace JFSEPABlogPost.Controllers
 {
     public class BlogController : Controller
     {
-        //Creating field or referance of IBlogPostRepository
-        private readonly IBlogPostRepository _blogPostRepository;
-
         /// <summary>
-        /// Injecting IBlogPostRepository referance in Controller constructor
+        /// Creating referance of IBlogPostServies and injecting in Controller constructoe
         /// </summary>
-        /// <param name="blogPostRepository"></param>
-        public BlogController(IBlogPostRepository blogPostRepository)
+        private readonly IBlogPostServies _blogPostServ;
+
+        public BlogController(IBlogPostServies blogPostServ)
         {
-            _blogPostRepository = blogPostRepository;
+            _blogPostServ = blogPostServ;
         }
         /// <summary>
-        /// Show all Post on index page after page load
+        /// Get all post and show on Index page 
         /// </summary>
         /// <returns></returns>
         public async Task<IActionResult> Index()
         {
-            IEnumerable<BlogPost> blogPosts = await _blogPostRepository.GetAllPost();
+            IEnumerable<BlogPost> blogPosts = await _blogPostServ.GetAllPost();
             return View(blogPosts);
         }
+        /// <summary>
+        /// Create new blog post
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Create()
         {
             return View();
         }
         /// <summary>
-        /// Create new post and store in InMemoryDb
+        /// Create new blogPost http post method
         /// </summary>
         /// <param name="blogPost"></param>
         /// <returns></returns>
@@ -43,15 +46,19 @@ namespace JFSEPABlogPost.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Title,Description,PostedDate")]BlogPost blogPost)
         {
-            //do code here
+            //Do code here
             return View();
         }
+        /// <summary>
+        /// Create new Comment on BlogPost
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Comments()
         {
             return View();
         }
         /// <summary>
-        /// Create new comment on Post
+        /// Create new Comment on BlogPost
         /// </summary>
         /// <param name="postId"></param>
         /// <param name="comments"></param>
@@ -60,18 +67,28 @@ namespace JFSEPABlogPost.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Comments(int postId, Comments comments)
         {
-            //do code here
+            //Do code here
             return View();
         }
         /// <summary>
-        /// Get All comments belongs to a post by postid
+        /// get Comment on BlogPost by PostId
         /// </summary>
         /// <param name="postId"></param>
         /// <returns></returns>
         public async Task<IActionResult> BlogComments(int? postId)
         {
-            //do code here
+            //Do code here
             return View();
         }
+        /// <summary>
+        /// Get all Comment
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IActionResult> PostBlogComments()
+        {
+            //Do code here
+            return View();
+        }
+
     }
 }

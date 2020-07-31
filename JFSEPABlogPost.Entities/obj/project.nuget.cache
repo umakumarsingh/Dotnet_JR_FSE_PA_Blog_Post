@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8JSuFb82Of4jsIB7LEsc1+ddYoKxyJTPBZJxUL2tL0hrN892mJoaxTcXEhk8w4t93JMokbv5cPMM/WqF85GEA==",
+  "dgSpecHash": "dvFAK+Xs5ZL9zzB2QWeog6dSnm5ZKftbRnhWBNQMuCAsK+86TU77Q/XCeZx0XMNoC+854Q+Cpxzh+kVR8lCszg==",
   "success": true,
-  "projectFilePath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
+  "projectFilePath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

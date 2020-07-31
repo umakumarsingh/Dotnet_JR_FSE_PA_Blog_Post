@@ -1,4 +1,5 @@
 ﻿using JFSEPABlogPost.BusinessLayer.Interfaces;
+using JFSEPABlogPost.BusinessLayer.ViewModel;
 using JFSEPABlogPost.Models;
 using JFSEPABlogPost.Models.Interfaces;
 using System;
@@ -10,53 +11,48 @@ namespace JFSEPABlogPost.BusinessLayer.Services
 {
     public class BlogPostServies : IBlogPostServies
     {
-        //Creating field or referance of IBlogPostRepository
+        /// <summary>
+        /// Creating Referance object of IBlogPostRepository and Injecting in BlogPostServies Constructor
+        /// </summary>
         private readonly IBlogPostRepository _blogPostRepository;
 
-        /// <summary>
-        /// Injecting IBlogPostRepository referance in constructor
-        /// </summary>
-        /// <param name="blogPostDbContext"></param>
         public BlogPostServies(IBlogPostRepository blogPostRepository)
         {
             _blogPostRepository = blogPostRepository;
         }
         /// <summary>
-        /// Add new Commnet on BlogPosst and store inMemoryDb
+        /// Add a new comment on blog post by calling Repository Commnet method
         /// </summary>
         /// <param name="postId"></param>
         /// <param name="comments"></param>
-        /// <returns>Comment object if create Comments show list</returns>
-        public Task<bool> Comments(int postId, Comments comments)
+        /// <returns></returns>
+        public Task<Comments> Comments(int postId, Comments comments)
         {
-            var result = _blogPostRepository.Comments(postId, comments);
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
-
         /// <summary>
-        /// Add new BlogPost and store in inMemory
+        /// Add a new Blog Post by calling Repository Create method
         /// </summary>
         /// <param name="blogPost"></param>
-        /// <returns>create new blogpost and return boolean</returns>
-        public Task<bool> Create(BlogPost blogPost)
+        /// <returns></returns>
+        public Task<BlogPost> Create(BlogPost blogPost)
         {
-            var result = _blogPostRepository.Create(blogPost);
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
-
         /// <summary>
-        /// Get a BlogPost by post Id fron InMemoryDb and show
+        /// get all comment on blog post by calling Repository GetAllComments method
         /// </summary>
         /// <param name="postId"></param>
-        /// <returns>a blog</returns>
+        /// <returns></returns>
         public Task<IEnumerable<Comments>> GetAllComments(int postId)
         {
-            var result = _blogPostRepository.GetAllComments(postId);
-
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
-        /// Get All List of Post
+        /// get all BlogPost by calling Repository GetAllPost method
         /// </summary>
         /// <returns></returns>
         public Task<IEnumerable<BlogPost>> GetAllPost()
@@ -65,14 +61,22 @@ namespace JFSEPABlogPost.BusinessLayer.Services
             return result;
         }
         /// <summary>
-        /// Get all Comments by PostId
+        /// get all Comments by calling Repository GetAllPostComment method
+        /// </summary>
+        /// <returns></returns>
+        public Task<IEnumerable<CommentPostViewModel>> GetAllPostComment()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// get post by postId by calling Repository GetAllPostComment method
         /// </summary>
         /// <param name="postId"></param>
         /// <returns></returns>
-        public BlogPost GetPostById(int postId)
+        public async Task<BlogPost> GetPostById(int postId)
         {
-            var result = _blogPostRepository.GetPostById(postId);
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }

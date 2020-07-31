@@ -1,4 +1,5 @@
-﻿using JFSEPABlogPost.Controllers;
+﻿using JFSEPABlogPost.BusinessLayer.Interfaces;
+using JFSEPABlogPost.Controllers;
 using JFSEPABlogPost.Models;
 using JFSEPABlogPost.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -15,13 +16,19 @@ namespace JFSEPABlogPost.UnitTest.TestCases
 {
     public class FuctionalTests
     {
-        private Mock<IBlogPostRepository> blogPostRepoMock;
+        ///// <summary>
+        ///// Creating Referance of all Service Interfaces and Mocking All Repository
+        ///// </summary>
+        private Mock<IBlogPostServies> blogPostServMock;
         private readonly BlogController blogController;
         public FuctionalTests()
         {
-            blogPostRepoMock = new Mock<IBlogPostRepository>();
-            blogController = new BlogController(blogPostRepoMock.Object);
+            blogPostServMock = new Mock<IBlogPostServies>();
+            blogController = new BlogController(blogPostServMock.Object);
         }
+        /// <summary>
+        /// 
+        /// </summary>
         static FuctionalTests()
         {
             if (!File.Exists("../../../../output_revised.txt"))
@@ -39,6 +46,10 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 File.Create("../../../../output_revised.txt").Dispose();
             }
         }
+        /// <summary>
+        /// Test to create new Blog Post and return on Index Page
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task CreateTest_Post_AddsBlogPostToRepository_AndRedirectsToIndex()
         {
@@ -48,9 +59,9 @@ namespace JFSEPABlogPost.UnitTest.TestCases
 
             // Act
             var result = await blogController.Create(objectsBlogPost);
-            
+
             // Assert
-            blogPostRepoMock.Verify(repo => repo.Create(objectsBlogPost));
+            blogPostServMock.Verify(repo => repo.Create(objectsBlogPost));
             var viewResult = Assert.IsType<RedirectToActionResult>(result);
             Assert.Equal("Index", viewResult.ActionName);
             if(viewResult.ActionName == "Index")
@@ -59,7 +70,10 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 "CreateTest_Post_AddsBlogPostToRepository_AndRedirectsToIndex="
                 + res.ToString() + "\n");
         }
-
+        /// <summary>
+        /// Test to list all Blog Post and return in Index Method
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task IndexTest_ReturnsViewWithBlogPostList()
         {
@@ -70,7 +84,7 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 new BlogPost { Title = "mock article 1", Description="Hi", PostedDate=DateTime.Now },
                 new BlogPost { Title = "mock article 2", Description="Hi", PostedDate=DateTime.Now }
             };
-            blogPostRepoMock.Setup(repo => repo.GetAllPost()).Returns(Task.FromResult(objectsList));
+            blogPostServMock.Setup(repo => repo.GetAllPost()).Returns(Task.FromResult(objectsList));
 
             // Act
             var result = await blogController.Index();
@@ -86,6 +100,10 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 + res.ToString() + "\n");
 
         }
+        /// <summary>
+        /// Tset if Comment exists in InMemoryDb show on details view
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task CommentTest_ReturnsDetailsView_WhenCommentExists()
         {
@@ -97,7 +115,7 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 new Comments { CommentMsg = "mock article 1", PostID=1, CommentedDate=DateTime.Now },
                 new Comments { CommentMsg = "mock article 2", PostID=2, CommentedDate =DateTime.Now }
             };
-            blogPostRepoMock
+            blogPostServMock
                 .Setup(repo => repo.GetAllComments(postId))
                 .Returns(Task.FromResult(objectsList));
 
@@ -114,6 +132,10 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 "CommentTest_ReturnsDetailsView_WhenCommentExists="
                 + res.ToString() + "\n");
         }
+        /// <summary>
+        /// Test List Commnet is Populating or not
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task CommentTest_ReturnsViewWithCommentList()
         {
@@ -125,7 +147,7 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 new Comments { CommentMsg = "mock commeted 1", PostID=1, CommentedDate=DateTime.Now },
                 new Comments { CommentMsg = "mock commeted 2", PostID=2, CommentedDate=DateTime.Now }
             };
-            blogPostRepoMock
+            blogPostServMock
                 .Setup(repo => repo.GetAllComments(postId))
                 .Returns(Task.FromResult(objectsList));
 
@@ -142,6 +164,10 @@ namespace JFSEPABlogPost.UnitTest.TestCases
                 "CommentTest_ReturnsViewWithCommentList="
                 + res.ToString() + "\n");
         }
+        /// <summary>
+        /// Test try to add new comment on post ane redirects to Index Page
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task CommentTest_Post_AddsCommentsToRepository_AndRedirectsToIndex()
         {
@@ -153,9 +179,9 @@ namespace JFSEPABlogPost.UnitTest.TestCases
 
             // Act
             var result = await blogController.Comments(postId, objectsComments);
-            
+
             // Assert
-            blogPostRepoMock.Verify(repo => repo.Comments(postId, objectsComments));
+            blogPostServMock.Verify(repo => repo.Comments(postId, objectsComments));
             var viewResult = Assert.IsType<RedirectToActionResult>(result);
             Assert.Equal("Index", viewResult.ActionName);
             if (viewResult.ActionName == "Index")

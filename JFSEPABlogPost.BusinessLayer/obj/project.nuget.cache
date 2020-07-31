@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aMkRRgrQ9pOPKmUU+no/zBUJuHQ2OKGjnQeoEMbwJCSPFJMbMK8RKZ2JUEe8CFwaeFEw18VELjt3ppLHxrHd7g==",
+  "dgSpecHash": "uzbxOcrS1d5RFlN///1e3qVDFkBzCgcVO3rLlSNZjoRlyR3NbXQtxvbtClSc5KLt9de66ewJR/gEIVaJWcdylg==",
   "success": true,
-  "projectFilePath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj",
+  "projectFilePath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

@@ -13100,11 +13100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost\\JFSEPABlogPost.csproj",
+      "projectUniqueName": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost\\JFSEPABlogPost.csproj",
       "projectName": "JFSEPABlogPost",
-      "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost\\JFSEPABlogPost.csproj",
+      "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost\\JFSEPABlogPost.csproj",
       "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-      "outputPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost\\obj\\",
+      "outputPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13123,14 +13123,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj"
+            "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj": {
+              "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.BusinessLayer\\JFSEPABlogPost.BusinessLayer.csproj"
             },
-            "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj"
+            "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj": {
+              "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.DataLayers\\JFSEPABlogPost.DataLayers.csproj"
             },
-            "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean_Up\\BlogPost-master-clean-code\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
+            "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj": {
+              "projectPath": "D:\\IIHT\\Code_Clean\\JFSEPABlogPostwithInMemory\\Blog\\JFSEPABlogPost.Entities\\JFSEPABlogPost.Entities.csproj"
             }
           }
         }

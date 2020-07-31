@@ -5,6 +5,7 @@
 
 <h3 class="text-center text-uppercase">Blog Post</h3>
 <p>
+    @*@Html.ActionLink("New Post", "Create", "Blog", new { @class = "btn btn-primary" })*@
     <button class="btn btn-primary" onclick="location.href='@Url.Action("Create", "Blog")';return false;">New Post</button>
 </p>
 <table class="table table-bordered">

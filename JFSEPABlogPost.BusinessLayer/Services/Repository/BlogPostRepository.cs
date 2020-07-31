@@ -1,4 +1,5 @@
-﻿using JFSEPABlogPost.Models.Interfaces;
+﻿using JFSEPABlogPost.BusinessLayer.ViewModel;
+using JFSEPABlogPost.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,70 +10,108 @@ namespace JFSEPABlogPost.Models
 {
     public class BlogPostRepository : IBlogPostRepository
     {
-        //Creating field or object of dbcontext
-        private readonly BlogPostDbContext _blogPostDbContext;
-
         /// <summary>
-        /// Injecting DbContext in constructor
+        /// Creating Referance object of DbContext and Injecting in Repository Constructor
         /// </summary>
-        /// <param name="blogPostDbContext"></param>
+        private readonly BlogPostDbContext _blogPostDbContext;
         public BlogPostRepository(BlogPostDbContext blogPostDbContext)
         {
             _blogPostDbContext = blogPostDbContext;
         }
-
         /// <summary>
-        /// Add new Commnet on BlogPosst and store inMemoryDb
+        /// Add a new comment on blog post.
         /// </summary>
         /// <param name="postId"></param>
         /// <param name="comments"></param>
-        /// <returns>Comment object if create Comments show list</returns>
-        public Task<bool> Comments(int postId, Comments comments)
+        /// <returns></returns>
+        public async Task<Comments> Comments(int postId, Comments comments)
         {
-            //do code here
-            throw new NotImplementedException();
+            if(comments.PostID == postId)
+            {
+                _blogPostDbContext.CommentsMsg.Add(comments);
+            }
+             await _blogPostDbContext.SaveChangesAsync();
+            return comments;
         }
-
         /// <summary>
-        /// Add new BlogPost and store in inMemory
+        /// Create New Blog Post
         /// </summary>
         /// <param name="blogPost"></param>
-        /// <returns>create new blogpost and return boolean</returns>
-        public async Task<bool> Create(BlogPost blogPost)
+        /// <returns></returns>
+        public async Task<BlogPost> Create(BlogPost blogPost)
         {
-            //do code here
-            throw new NotImplementedException();
+            //var success = false;
+
+            _blogPostDbContext.BlogPosts.Add(blogPost);
+
+            var numberOfItemsCreated = await _blogPostDbContext.SaveChangesAsync();
+
+            //if (numberOfItemsCreated == 1)
+            //    success = true;
+
+            return blogPost;
         }
         /// <summary>
-        /// Get a BlogPost by post Id fron InMemoryDb and show
+        /// Get Post By Id passed by user
         /// </summary>
         /// <param name="postId"></param>
-        /// <returns>a blog</returns>
-        public BlogPost GetPostById(int postId)
-        {
-            //do code here
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// Get All List of Post
-        /// </summary>
         /// <returns></returns>
+        public async Task<BlogPost> GetPostById(int postId)
+        {
+            var result = await _blogPostDbContext.BlogPosts
+                                 .Where(x => x.PostID == postId)
+                                 .FirstOrDefaultAsync();
+            return result;
+        }
+        /// <summary>
+        /// Get all post from InMemoryDb
+        /// </summary>
+        /// <returns>All Blog Post as a List</returns>
         public async Task<IEnumerable<BlogPost>> GetAllPost()
         {
-            //do code here
-            throw new NotImplementedException();
+            var user = await _blogPostDbContext.BlogPosts.
+                OrderByDescending(x => x.PostedDate).ToListAsync();
+            return user;
         }
-
         /// <summary>
-        /// Get all Comments by PostId
+        /// Get All Commments from InMemoryDb
         /// </summary>
         /// <param name="postId"></param>
         /// <returns></returns>
         public async Task<IEnumerable<Comments>> GetAllComments(int postId)
         {
-            //do code here
-            throw new NotImplementedException();
+            var allcomments = await _blogPostDbContext.CommentsMsg.OrderByDescending(x => x.CommentedDate)
+                .Where(c => c.PostID == postId).ToListAsync();
+            return allcomments;
+        }
+        /// <summary>
+        /// Get All Commnet 
+        /// </summary>
+        /// <returns></returns>
+        public async Task<ICollection<CommentPostViewModel>> GetAllPostComment()
+        {
+            var viewModels = (from e in _blogPostDbContext.BlogPosts
+                select new CommentPostViewModel
+                {
+                    BlogPost = e,
+                    Comments = e.Comments,
+                }).ToListAsync();
+            return await viewModels;
+        }
+        /// <summary>
+        /// Get All Commnet based on PostId
+        /// </summary>
+        /// <param name="postId"></param>
+        /// <returns></returns>
+        public async Task<ICollection<CommentPostViewModel>> GetAllPostCommentById(int postId)
+        {
+            var viewModels = (from e in _blogPostDbContext.BlogPosts.Where(p => p.PostID == postId)
+                              select new CommentPostViewModel
+                              {
+                                  BlogPost = e,
+                                  Comments = e.Comments,
+                              }).ToListAsync();
+            return await viewModels;
         }
     }
 }

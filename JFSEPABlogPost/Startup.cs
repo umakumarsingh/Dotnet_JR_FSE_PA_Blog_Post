@@ -32,7 +32,7 @@ namespace JFSEPABlogPost
             //services.AddControllersWithViews();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             
-            //To Use InMemory Db uncomment below LOC
+            //To Use InMemory Db
             services.AddDbContext<BlogPostDbContext>(options => options.UseInMemoryDatabase("usingInMemory"));
             
             //Injecting Services and Repository
