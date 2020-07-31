@@ -211,9 +211,9 @@ namespace JFSEPABlogPost.UnitTest.TestCases
             //Arrange
             var res = false;
             //Act
-            service.Setup(repo => repo.GetPostById(_post.PostID));
+            service.Setup(repo => repo.GetPostById(_post.PostID)).ReturnsAsync(_post);
             var result = await _blogPostServMock.GetPostById(_post.PostID);
-            if (result != null)
+            if (result.PostID == _post.PostID)
             {
                 res = true;
             }
