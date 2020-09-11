@@ -57,7 +57,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<BlogPost>> GetAllPost()
         {
-            var result = _blogPostRepository.GetAllPost();
+            var result = await _blogPostRepository.GetAllPost();
             return result;
         }
         /// <summary>
