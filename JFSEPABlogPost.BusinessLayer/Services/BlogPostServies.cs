@@ -26,7 +26,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// <param name="postId"></param>
         /// <param name="comments"></param>
         /// <returns></returns>
-        public Task<Comments> Comments(int postId, Comments comments)
+        public async Task<Comments> Comments(int postId, Comments comments)
         {
             //Do code here
             throw new NotImplementedException();
@@ -36,7 +36,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// </summary>
         /// <param name="blogPost"></param>
         /// <returns></returns>
-        public Task<BlogPost> Create(BlogPost blogPost)
+        public async Task<BlogPost> Create(BlogPost blogPost)
         {
             //Do code here
             throw new NotImplementedException();
@@ -46,7 +46,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// </summary>
         /// <param name="postId"></param>
         /// <returns></returns>
-        public Task<IEnumerable<Comments>> GetAllComments(int postId)
+        public async Task<IEnumerable<Comments>> GetAllComments(int postId)
         {
             //Do code here
             throw new NotImplementedException();
@@ -55,7 +55,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// get all BlogPost by calling Repository GetAllPost method
         /// </summary>
         /// <returns></returns>
-        public Task<IEnumerable<BlogPost>> GetAllPost()
+        public async Task<IEnumerable<BlogPost>> GetAllPost()
         {
             var result = _blogPostRepository.GetAllPost();
             return result;
@@ -64,7 +64,7 @@ namespace JFSEPABlogPost.BusinessLayer.Services
         /// get all Comments by calling Repository GetAllPostComment method
         /// </summary>
         /// <returns></returns>
-        public Task<IEnumerable<CommentPostViewModel>> GetAllPostComment()
+        public async Task<IEnumerable<CommentPostViewModel>> GetAllPostComment()
         {
             throw new NotImplementedException();
         }
