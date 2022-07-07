@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
     <ProjectReference Include="..\JFSEPABlogPost.DataLayers\JFSEPABlogPost.DataLayers.csproj" />
     <ProjectReference Include="..\JFSEPABlogPost.Entities\JFSEPABlogPost.Entities.csproj" />
   </ItemGroup>
